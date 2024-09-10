@@ -217,7 +217,8 @@ on_finish: function(data){
 
         newTimeline = [
             DASS21_block, //2b adults
-            STAI_block, //3a adults
+            STAIY1_block, //3b
+            STAIY2_block, //3a
             IU_block, //4
             BISBAS_block, //5
             AFML_block, //6
@@ -235,7 +236,8 @@ on_finish: function(data){
     } else {
         newTimeline = [
             DASSY_block, //2a adolescents
-            STAIY_block, //3b adolescents
+            STAIY1_block, //3b
+            STAIY2_block, //3a
             IU_block, //4
             BISBAS_block, //5
             AFML_block, //6

@@ -17,83 +17,83 @@ var scale = [
 var questions = [
 		{prompt: '<p style="text-align:center; font-size:24px"><b>Generally...</b>'+
 		'<p style="text-align:center; font-size:24px"><br>I feel pleasant.',
-		name: 'STAI1', 
+		name: 'STAIY2-1', 
 		labels: scale},
 	
 		{prompt: '<p style="text-align:center; font-size:24px">I feel nervous and restless.',
-		name: 'STAI2', 
+		name: 'STAIY2-2', 
 		labels: scale},
 	
 		{prompt: '<p style="text-align:center; font-size:24px">I feel satisfied with myself.',
-		name: 'STAI3', 
+		name: 'STAIY2-3', 
 		labels: scale},
 	
 		{prompt: '<p style="text-align:center; font-size:24px">I wish I could be as happy as others seem to be.',
-		name: 'STAI4', 
+		name: 'STAIY2-4', 
 		labels: scale},
 	
 		{prompt: '<p style="text-align:center; font-size:24px">I feel like a failure.',
-		name: 'STAI5', 
+		name: 'STAIY2-5', 
 		labels: scale},
 	
 		{prompt: '<p style="text-align:center; font-size:24px">I feel rested.',
-		name: 'STAI6', 
+		name: 'STAIY2-6', 
 		labels: scale},
 
 		{prompt: '<p style="text-align:center; font-size:24px">I am "calm, cool, and collected".',
-		name: 'STAI7', 
+		name: 'STAIY2-7', 
 		labels: scale},
 
 		{prompt: '<p style="text-align:center; font-size:24px">I feel that difficulties are piling up so that I cannot overcome them.',
-		name: 'STAI8', 
+		name: 'STAIY2-8', 
 		labels: scale},
 	
 		{prompt: '<p style="text-align:center; font-size:24px">I worry too much over something that really doesn\'t matter.',
-		name: 'STAI9', 
+		name: 'STAIY2-9', 
 		labels: scale},
 
 		{prompt: '<p style="text-align:center; font-size:24px">I am happy.',
-		name: 'STAI10', 
+		name: 'STAIY2-10', 
 		labels: scale},
 
 		{prompt: '<p style="text-align:center; font-size:24px">I have disturbing thoughts.',
-		name: 'STAI11', 
+		name: 'STAIY2-11', 
 		labels: scale},
 	
 		{prompt: '<p style="text-align:center; font-size:24px">I lack self-confidence.',
-		name: 'STAI12', 
+		name: 'STAIY2-12', 
 		labels: scale},
 	
 		{prompt: '<p style="text-align:center; font-size:24px">I feel secure.',
-		name: 'STAI13', 
+		name: 'STAIY2-13', 
 		labels: scale},
 	
 		{prompt: '<p style="text-align:center; font-size:24px">I make decisions easily.',
-		name: 'STAI14', 
+		name: 'STAIY2-14', 
 		labels: scale},
 	
 		{prompt: '<p style="text-align:center; font-size:24px">I feel inadequate.',
-		name: 'STAI15', 
+		name: 'STAIY2-15', 
 		labels: scale},
 
 		{prompt: '<p style="text-align:center; font-size:24px">I am content.',
-		name: 'STAI16', 
+		name: 'STAIY2-16', 
 		labels: scale},
 	
 		{prompt: '<p style="text-align:center; font-size:24px">Some unimportant thought runs through my mind and bothers me.',
-		name: 'STAI17', 
+		name: 'STAIY2-17', 
 		labels: scale},
 	
 		{prompt: '<p style="text-align:center; font-size:24px">I take disappointments so keenly that I can\'t put them out of my mind.',
-		name: 'STAI18', 
+		name: 'STAIY2-18', 
 		labels: scale},
 	
 		{prompt: '<p style="text-align:center; font-size:24px">I am a steady person.',
-		name: 'STAI19', 
+		name: 'STAIY2-19', 
 		labels: scale},
 	
 		{prompt: '<p style="text-align:center; font-size:24px">I get in a state of tension or turmoil as I think over my recent concerns and interests.',
-		name: 'STAI20', 
+		name: 'STAIY2-20', 
 		labels: scale}
 		
 ];
@@ -102,14 +102,14 @@ questions.forEach(function(question) {
     question.required = true;
 });
 
-var STAI = {
+var STAIY2 = {
 	type: 'survey-likert',
 	questions: questions,
 	randomize_question_order:false
 };
 
-var STAI_block = {
-	timeline: [prompt, STAI],
+var STAIY2_block = {
+	timeline: [prompt, STAIY2],
 	randomize_order: false,
 };
 

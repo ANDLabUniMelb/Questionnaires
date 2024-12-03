@@ -92,7 +92,7 @@ var PS = {
 	randomize_question_order: false
 };
 
-var MSPSS_block = {
+var PS_block = {
 	timeline: [prompt, PS],
 	randomize_order: false
 };
